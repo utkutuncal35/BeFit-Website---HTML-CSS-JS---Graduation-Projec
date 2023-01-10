@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@900&display=swap');
+
+body {
+    background: #fafafa;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container .navbar {
+    width: 100%;
+    height: 80px;
+
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-left: 28px;
+    margin-top: 20px;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+    color: #ffffff;
+}
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+    
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    color: rgba(0, 0, 0, 0.707);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Montserrat', sans-serif;
+    transition: .5s ;
+
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background-color: #2cbc7c;
+    color: #ffffff;
+    border-radius: 3px;  
+}
+
+.baslik h1  {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 120px;
+    color: #2cbc7c;
+    font-size: 35px;
+}
+
+.paragraf {
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 190px;
+    font-size: 18px;
+    
+}
+
+.paragraf>p {
+    margin-left: 25px;
+}
+
+img {
+    position: absolute;
+    margin-left: 750px;
+    width: 35%;
+    height: auto    ;
+    border-radius: 10px;
+}
+h3 {
+    margin-top: 400px;
+    text-align: center;
+    color: #2cbc7c ;
+    text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #fafafa;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2cbc7c;
+}
+
+.plan1  {
+    position: absolute;
+    border: 1px solid #2cbc7c;
+    width: 500px;
+    height: 570px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    background: #00d172;
+    color: #fafafa;
+    border-radius: 5px;
+    box-shadow:inset;
+    padding: 5px;
+    
+}
+
+.plan1 >.aciklama {
+    color: #fafafa;
+    text-align: left;
+    margin-top: 10px;
+}
+
+button {
+    background: #fafafa;
+    border-radius: 5px;
+    border: 1px solid #2cbc7c;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    margin-top: 25px;
+    color: #2cbc7c;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: #0a0a0a;
+}
+
+  
+.plan2  {
+    position: absolute;
+    border: 1px solid #2cbc7c;
+    width: 500px;
+    height: 570px;
+    text-align: center;
+    margin-left: 800px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    background: #00d172;
+    color: #fafafa;
+    border-radius: 5px;
+    box-shadow:inset;
+    padding: 5px;
+    
+}
+
+
+
+.plan2 >.aciklama {
+    color: #fafafa;
+    text-align: left;
+    margin-top: 10px;
+}  
+
+.alt-baslik {
+    margin-left: 38%;
+    position: absolute;
+    margin-top: 780px;
+}
+
+.bilgi {
+    padding-top: 5px;
+    color: #2F4858;
+    line-height: 25px;
+    max-width: 1100px;
+    position: absolute;
+    margin-top: 850px;
+    text-align:start;
+    margin-left: 250px;
+}
+
+b {
+    color: #2cbc7c;
+}
+
+.alt-baslik1 {
+    margin-left: 40%;
+    position: absolute;
+    margin-top: 1300px;
+}
+
+.bilgi1 {
+    padding-top: 5px;
+    color: #2F4858;
+    line-height: 25px;
+    max-width: 1100px;
+    position: absolute;
+    margin-top: 1380px;
+    text-align:start;
+    margin-left: 250px;
+
+}
+
+.alt-baslik1 > p {
+    
+    
+    margin-right: 500px;
+}
+
+.bilgi2 {
+    padding-top: 5px;
+    color: #2F4858;
+    line-height: 25px;
+    max-width: 1100px;
+    position: absolute;
+    margin-top: 1865px;
+    text-align:start;
+    margin-left: 250px;
+    padding-bottom: 100px;
+
+}
+
+.alt-baslik2 {
+    margin-left: 48%;
+    position: absolute;
+    margin-top: 1790px;
+}
+
+.footer {
+    margin-left: 25%;
+    position: absolute;
+    margin-top: 2150px;
+    padding-bottom: 200px;
+}
+
+.alt-baslik3 {
+    margin-left: 42%;
+    position: absolute;
+    margin-top: 2100px;
+}
+
