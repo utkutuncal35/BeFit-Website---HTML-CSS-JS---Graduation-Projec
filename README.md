@@ -1,1 +1,1 @@
-# BeFit-Website-HTML-CSS-JS-Graduation-Projectt
+# BeFit-Website-HTML-CSS-JS-Graduation-Project
